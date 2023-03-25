@@ -1,0 +1,121 @@
+.Memory{
+    animation-name: fly;
+    animation-duration: 0.5s;
+}
+@keyframes fly {
+    from{
+        transform: translateY(150%);
+        opacity: 0;
+    }
+}
+.content{
+    margin-bottom: 5rem;
+}
+.intro{
+    margin-bottom: 5rem;
+}
+.intro_text{
+    padding-top: 5rem;
+}
+.intro_text h1{
+    text-align: right;
+    font-size: 8rem;
+    color: var(--main-color);
+}
+.under{
+    padding-bottom: 2rem;
+}
+.intro_text p{
+    font-size: 2rem;
+    text-align: right;
+}
+
+/* content */
+
+.content_item{
+    margin: auto 1rem;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 8px 6px 14px 0 #0000001f;
+    border-radius: 20px;
+}
+.content_item:hover{
+    background: linear-gradient(45deg,#70e000 ,#3ebf02,#39b002, #058a05);
+    transform: scale(1.05);
+    color: white;
+}
+.item_detail{
+    background-color: transparent;
+    margin-top: 3rem;
+}
+.item_detail h1{
+    background-color: transparent;
+}
+.item_time{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding-bottom: 4rem;
+}
+.item_time h3{
+    background-color: transparent;
+    margin: auto 0.5rem;
+}
+.content_item i{
+    font-size: 2rem;
+    background-color: transparent;
+    margin: auto 0.5rem;
+}
+.item_img{
+    margin-top: 3rem;
+    clip-path: circle(50% at 50% 50%);
+    max-width: 70%;
+}
+
+@media (max-width: 767px){
+    .intro_text h1{
+        text-align: center;
+        font-size: 5rem;
+    }
+    .intro_text p{
+        text-align: center;
+    }
+    .intro_text{
+        padding-top: 2rem;
+    }
+    .item_img{
+        max-width: 65%;
+    }
+    .item_detail h1{
+        font-size: 1.7rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .intro_text h1{
+        font-size: 5rem;
+    }
+    .intro_text p{
+        font-size: 1.75rem;
+        text-align: right;
+    }
+    .item_img{
+        max-width: 60%;
+    }
+    
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+    .intro_text h1{
+        font-size: 7rem;
+    }
+    .intro_text p{
+        font-size: 1.75rem;
+        text-align: right;
+    }
+    
+}
+@media (min-width:992px) and (max-width:1199px){
+    .item_detail h1{
+        font-size: 2.5rem;
+    }
+}

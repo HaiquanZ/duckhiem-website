@@ -1,0 +1,36 @@
+.portrait_item{
+    border-top: var(--main-color) 3px solid;
+    margin-bottom: 10rem;
+}
+.infor_item h2 a{
+    text-decoration: none;
+    color: black;
+}
+.infor_item h2 a:hover{
+    color: var(--main-color);
+}
+.infor_item{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.gr{
+    color: var(--main-color);
+    display: inline-block;
+}
+.photo_item{
+    margin-top: 5rem;
+    width: 100%;
+    column-width: 26rem;
+}
+.detail{
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 5px auto;
+}
+@media (max-width:767px){
+    .photo_item{
+        column-width: 15rem;
+    }
+}

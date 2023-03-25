@@ -1,0 +1,16 @@
+.notfound_text {
+    padding-top: 18rem;
+}
+@media (max-width:767px){
+    .notfound_text {
+        padding-top: 2rem;
+    }
+    .notfound_text {
+        margin-bottom: 4rem;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .notfound_text {
+        padding-top: 10rem;
+    }
+}

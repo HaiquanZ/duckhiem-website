@@ -1,0 +1,63 @@
+.Home{
+    animation-name: fly;
+    animation-duration: 0.5s;
+}
+@keyframes fly {
+    from{
+        transform: translateY(150%);
+        opacity: 0;
+    }
+}
+.first_text h1{
+    font-size: 6rem;
+    margin-top: 12rem;
+    color: var(--main-color);
+}
+.describe{
+    margin-bottom: 5rem;
+}
+.describe h2{
+    padding:2rem;
+    border: var(--main-color) 3px solid;
+    border-radius: 50px;
+}
+.discover{
+    background-color:#F5F5F5;
+    font-size: 2rem;
+    color: black;
+}
+.item_discover {
+    margin: 2rem auto;
+    color: black;
+    display: inline-block;
+    transition: var(--transition-global);
+}
+.item_discover:hover{
+    color: var(--main-color);
+}
+.item_discover:hover > i{
+    color: var(--main-color);
+}
+.discover i{
+    font-size: 3rem;
+    color: black;
+    margin: auto 1rem;
+}
+@media (min-width:992px) and (max-width:1199px){
+    .first_text h1{
+        margin-top: 8rem
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .first_text h1{
+        margin-top: 5rem;
+        font-size: 5rem;
+    }
+}
+@media (max-width:767px){
+    .first_text h1{
+        margin-top: 0rem;
+        font-size: 5rem;
+    }
+}
+

@@ -1,0 +1,134 @@
+.About{
+    animation-name: fly;
+    animation-duration: 0.5s;
+}
+@keyframes fly {
+    from{
+        transform: translateY(150%);
+        opacity: 0;
+    }
+}
+.infor{
+    margin-bottom: 5rem;
+}
+
+.infor_text{
+    padding-top: 14rem;
+    text-align: left;
+}
+.infor_text h1, .infor_text h2{
+    margin-left: 4rem;
+}
+.bank_text p{
+    margin-top: 1rem;
+}
+#overlay2{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#bank{
+    position: fixed;
+    display: none;
+    z-index: 2;
+    border-radius: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#bank h1{
+    margin: auto 4rem;
+    margin-top: 4rem;
+}
+#bank .button{
+    margin-bottom: 4rem;
+}
+.donate{
+    margin-bottom: 5rem;
+}
+.cm {
+    margin-bottom: 4rem;
+}
+.chat,.donate{
+    margin: auto 1rem;
+    transition: all ease-in-out .2s;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 8px 6px 14px 0 #0000001f;
+    border-radius: 20px;
+    padding-bottom: 3rem;
+}
+.chat:hover,.donate:hover{
+    transform: scale(1.05);
+}
+.chat h1,.donate h1{
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: transparent;
+    background: linear-gradient(45deg,#70e000 ,#3ebf02,#39b002, #058a05);;
+}
+
+.chat h2,.donate h2{
+    background-color: transparent;
+}
+.chat img,.donate img{
+    width: 60%;
+}
+.donate img{
+    margin-top: 1rem;
+}
+.chat a {
+    background-color: transparent;
+}
+.wrap_btn{
+    background-color: transparent;
+    margin-top: 3rem;
+}
+.donate button{
+    background-color: transparent;
+}
+@media (min-width:768px) and (max-width: 1199px){
+    .infor_text{
+        padding-top: 2rem;
+    }
+    .infor_text h1{
+        font-size: 2.5rem;
+    }
+    .infor_text h2{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    .infor_text{
+        padding-top: 1rem;
+        text-align: center;
+    }
+    .chat img,.donate img{
+        width: 50%;
+    }
+    .chat,.donate{
+        margin: auto 6rem;
+    }
+    .chat{
+        margin-bottom: 3rem;
+    }
+}
+@media(max-width:575px){
+    .infor_text{
+        padding-top: 1rem;
+        text-align: center;
+    }
+    .chat img,.donate img{
+        width: 50%;
+    }
+    .chat,.donate{
+        margin: auto 6rem;
+    }
+    .chat{
+        margin-bottom: 3rem;
+    }
+}

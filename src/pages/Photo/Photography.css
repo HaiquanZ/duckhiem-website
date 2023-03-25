@@ -1,0 +1,17 @@
+.type {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+.btn_all,.btn_portrait{
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+}
+.btn_all{
+    color: var(--main-color);
+    border-bottom: var(--main-color) 3px solid;
+}
+.btn_portrait{
+    color: #C0C0C0;
+}

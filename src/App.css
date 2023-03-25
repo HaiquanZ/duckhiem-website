@@ -1,38 +1,126 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header_item{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: auto 1.75rem;
+  text-decoration: none;
+  color: black;
+  transition: var(--transition-global);
+}
+.font-script{
+  font-size: 3rem;
+}
+.header_item:hover{
+  color: var(--main-color);
+  border-bottom: 3px solid;
+}
+.font-script:hover{
+  border-bottom: none;
+}
+/* mobile */
+.mobile_big{
+  display: none;
+  margin-bottom: 1rem;
+}
+.mobile{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.list_icon{
+  font-size: 3rem;
+  transition: var(--transition-global) ;
+  margin: auto 1.75rem;
+}
+.list_icon:hover{
+  color: var(--main-color);
+}
+.mobile .header_item{
+  margin: auto 4rem;
+}
+.mobile_nav{
+  font-size: 3rem;
+}
+.mobile_overlay{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+  display: none;
+  animation: fadeIn linear 0.3s;
+  z-index: 10;
+}
+.mobile_menu{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 320px;
+  max-width: 100%;
+  background-color: white;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all linear 0.3s;
+  z-index: 11;
+}
+.mobile_first{
+  margin: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+.mobile_firstitem{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: all ease-in-out 0.3s;
+}
+.mobile_firstitem:hover{
+  color: var(--main-color);
+}
+.mobile_menuitem{
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  text-align: center;
+  transition: all ease-in-out 0.3s;
+}
+.mobile_menuitem:hover{
+  color: var(--main-color);
+}
+@media (max-width: 1023px){
+  .header{
+      display: none;
+  }
+  .mobile_big{
+      display: block;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+      opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+      opacity: 1;
   }
 }
+
+@media (max-width:739px){
+  .menubar{
+      display: none;
+  }
+}
+
