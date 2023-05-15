@@ -13,7 +13,7 @@ function Home(){
             <div className="row first">
                 <div className="first_text col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <h1 className="font-script">Welcome to my website</h1>
-                    <button className="button">Get Started</button>
+                    <a href="#discoverid" className="button">Get Started</a>
                 </div>
                 <img className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" alt="intro" src="https://i.imgur.com/2rJbhuX.jpg"/>
             </div>
@@ -24,10 +24,12 @@ function Home(){
                     This website is my personal website. It is made by me.
                     <br/>
                     I want to keep and share my memories here.
+                    <br/>
+                    There will be times when I want to look back my journey. Thanks for visiting!
                 </h2>
             </div>
 
-            <div className="discover row">
+            <div className="discover row" id="discoverid">
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <h1>Discover</h1>
                 </div>

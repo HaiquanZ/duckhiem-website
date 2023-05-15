@@ -33,7 +33,7 @@ function Photography(){
             <div className="row">
                 <img alt="Minh hoa" src="https://i.imgur.com/suGLvOE.png" className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"/>
                 <div className="notp col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <h1><div style={{color:"var(--main-color)"}}>Message: </div> I'm not a photographer. I'm a person who loves taking pictures</h1>
+                    <h1><div style={{color:"var(--main-color)"}}>Message: </div>I like photography. These are the pictures that which I took</h1>
                 </div>
             </div>
 
