@@ -6,6 +6,7 @@ import About from './pages/About/About';
 import Photography from './pages/Photo/Photography';
 import Footer from './pages/Footer/Footer';
 import NotFound from './pages/NotFound/NotFound';
+import Blog from './pages/Blog/Blog';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
             <Link to="/" className="header_item">Home</Link>
             <Link to="/photography" className="header_item">Photography</Link>
             <Link to="/memory" className="header_item">Memory</Link>
+            <Link to="/blog" className='header_item'>Blog</Link>
             <Link to="/about" className=" header_item">About</Link>
         </div>
       </div>
@@ -68,6 +70,10 @@ function App() {
                 <i className="fa-solid fa-film"></i>
                 Memory
             </Link>
+            <Link to="/blog" className="mobile_menuitem" onClick={hideList}>
+              <i className="fa-solid fa-blog"></i>
+                Blog
+            </Link>
             <Link to="/about" className="mobile_menuitem" onClick={hideList}>
                 <i className="fa-solid fa-user"></i>
                 About
@@ -84,6 +90,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/photography" element={<Photography/>}></Route>
         <Route path="/memory" element={<Memory/>}></Route>
+        <Route path="/blog" element={<Blog/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
       </Routes>
