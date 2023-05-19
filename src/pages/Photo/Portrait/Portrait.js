@@ -4,6 +4,18 @@ function Portrait(){
     const listPortrait = [
         {
             name: "#NONAME",
+            location: "Studio",
+            linkLocation: "https://goo.gl/maps/3QjY3YwbFx6kAntg6",
+            img: [
+                "https://i.pinimg.com/564x/24/c9/af/24c9afefd0beaa1347014c0d5718e74f.jpg",
+                "https://i.pinimg.com/564x/b3/0f/2a/b30f2aa1e9b871356bd915a4e6b75f56.jpg",
+                "https://i.pinimg.com/564x/8d/a3/c1/8da3c153d475fd1b2d7ba9c167b07282.jpg",
+                "https://i.pinimg.com/564x/cd/5d/d1/cd5dd164691d0096aaa8c88f7e1cf4b8.jpg",
+                "https://i.pinimg.com/564x/c6/29/9d/c6299d92fe4e62a2705b87fea85eadea.jpg"
+            ],
+        },
+        {
+            name: "#NONAME",
             location: "Dai hoc Y Ha Noi",
             linkLocation: "https://goo.gl/maps/nCsEEGgiKy5nDmzW6",
             img: [

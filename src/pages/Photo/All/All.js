@@ -4,6 +4,26 @@ function All(){
 
     const listdata = [
         {
+            id: 17,
+            img: "https://i.pinimg.com/564x/24/c9/af/24c9afefd0beaa1347014c0d5718e74f.jpg",
+            title: "Beauty"
+        },
+        {
+            id: 18,
+            img: "https://i.pinimg.com/564x/b3/0f/2a/b30f2aa1e9b871356bd915a4e6b75f56.jpg",
+            title: "Beauty"
+        },
+        {
+            id: 19,
+            img: "https://i.pinimg.com/564x/8d/a3/c1/8da3c153d475fd1b2d7ba9c167b07282.jpg",
+            title: "Beauty"
+        },
+        {
+            id: 20,
+            img: "https://i.pinimg.com/564x/cd/5d/d1/cd5dd164691d0096aaa8c88f7e1cf4b8.jpg",
+            title: "Beauty"
+        },
+        {
             id: 1,
             img: "https://i.pinimg.com/564x/56/30/de/5630de4e23349fda6a3df49e0457f58a.jpg",
             title: "Suan Cien"
