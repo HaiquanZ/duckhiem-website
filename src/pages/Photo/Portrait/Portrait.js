@@ -1,6 +1,17 @@
+import { useEffect, useState } from 'react';
 import './Portrait.css';
+import axios from 'axios';
 
 function Portrait(){
+
+    // const [listPortrait, setList] = useState([]);
+
+    // useEffect(() => {
+    //     axios.get('https://duckhiem.free.beeceptor.com/image-portrait')
+    //     .then(response => setList(response.data))
+    //     .catch(err => console.log(err));
+    // },[]);
+
     const listPortrait = [
         {
             name: "#NONAME",

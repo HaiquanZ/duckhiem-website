@@ -11,6 +11,12 @@ function Memory(){
             url: "https://drive.google.com/drive/folders/1o1k8K8g7kMy723g7jDFPQPNyVrCwi4kc?usp=sharing"
         },
         {
+            local: "Tam Dao",
+            time: "07/10/2023",
+            img: "https://i.imgur.com/b0ogXhN.jpg",
+            url: "https://drive.google.com/drive/folders/1CnCrmxpXxFne_BfWOmGHVturx_uON_3b?usp=sharing"
+        },
+        {
             local: "Ho Dong Do",
             time: "11/02/2023",
             img: "https://img.upanh.tv/2023/02/13/20230211_163213703b29d3ff7d7047.png",
