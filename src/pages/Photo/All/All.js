@@ -2,19 +2,20 @@ import { useEffect } from 'react';
 import './All.css';
 import { useState } from 'react';
 import axios from 'axios';
+import { ALL_IMAGES } from '../../../constant/const';
 
 function All(){
 
-    const [listData, setList] = useState([]);
+    // const [listData, setList] = useState([]);
 
-    useEffect(()=> {
-        axios.get('https://duckhiem.free.beeceptor.com/image')
-        .then(response => {
-            //console.log(response);
-            setList(response.data)
-        })
-        .catch(error => console.log(error))
-    },[]);
+    // useEffect(()=> {
+    //     axios.get('https://duckhiem.free.beeceptor.com/image')
+    //     .then(response => {
+    //         //console.log(response);
+    //         setList(response.data)
+    //     })
+    //     .catch(error => console.log(error))
+    // },[]);
 
     function handleZoom(par){
         document.querySelector(".picture").src = par;
@@ -35,7 +36,7 @@ function All(){
             </div>
             <div className='content_all'>
                 {
-                    listData.map((item) => (
+                    ALL_IMAGES.map((item) => (
                         <div key={item.id} className="post">
                             <img src={item.img} alt="imgcontent" className='img_item' onClick={()=>handleZoom(item.img)}/>
                             <h2 style={{fontWeight: "lighter"}}>{item.title}</h2>
