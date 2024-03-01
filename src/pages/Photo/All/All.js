@@ -1,7 +1,4 @@
-import { useEffect } from 'react';
 import './All.css';
-import { useState } from 'react';
-import axios from 'axios';
 import { ALL_IMAGES } from '../../../constant/const';
 
 function All(){

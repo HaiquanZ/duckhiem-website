@@ -37,6 +37,9 @@ function Photography(){
                 </div>
             </div>
 
+            <div style={{margin:"4rem auto"}}>
+                <a className='button' href='https://www.pinterest.com/duckhiem26/_created/'>View all picture on Pinterest</a>
+            </div>
 
             <div className="type">
                 <button className="btn_all"

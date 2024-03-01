@@ -1,5 +1,60 @@
 export const ALL_IMAGES = [
     {
+        id: 33,
+        img: 'https://i.pinimg.com/736x/20/32/25/20322590cf14ab9cdb0cf0c153b143ce.jpg',
+        title: 'Kỷ yếu học sinh'
+    },
+    {
+        id: 32,
+        img: 'https://i.pinimg.com/736x/64/3a/eb/643aeb836e2f96b7badc559c1ffc50a1.jpg',
+        title: 'Kỷ yếu học sinh'
+    },
+    {
+        id: 31,
+        img: 'https://i.pinimg.com/736x/c1/f5/39/c1f539bf87f6a3ab45be02142b6a2fc5.jpg',
+        title: 'Kỷ yếu học sinh'
+    },
+    {
+        id: 30,
+        img: 'https://i.pinimg.com/736x/0c/07/2c/0c072cffd333aef30b9c73bfce913313.jpg',
+        title: 'Kỷ yếu học sinh'
+    },
+    {
+        id: 29,
+        img: 'https://i.pinimg.com/736x/c4/fa/b5/c4fab5bba49a3817c884f408c4169bef.jpg',
+        title: 'Kỷ yếu học sinh'
+    },
+    {
+        id: 28,
+        img: 'https://i.pinimg.com/736x/81/6e/46/816e46c636c26c3f5ec1218d563b6806.jpg',
+        title: 'Kỷ yếu học sinh'
+    },
+    {
+        id: 9,
+        img: 'https://i.pinimg.com/736x/44/67/b1/4467b1f81307fbf12ae97ae600d52493.jpg',
+        title: 'Áo dài'
+    },
+    {
+        id: 10,
+        img: 'https://i.pinimg.com/736x/2a/6d/d2/2a6dd2b738479e3a7621deebb1e9ee90.jpg',
+        title: 'Áo dài'
+    },
+    {
+        id: 11,
+        img: 'https://i.pinimg.com/736x/4d/94/ef/4d94effe79448026df37c15e58b971e8.jpg',
+        title: 'Áo dài'
+    },
+    {
+        id: 12,
+        img: 'https://i.pinimg.com/736x/c1/7e/a6/c17ea6abc034a2462ae532af9bec3086.jpg',
+        title: 'Áo dài'
+    },
+    {
+        id: 13,
+        img: 'https://i.pinimg.com/736x/66/42/a1/6642a111b8e4ffc156b52d5f27d661f9.jpg',
+        title: 'Áo dài'
+    },
+    {
         id: 27,
         img: 'https://i.pinimg.com/736x/f8/d0/45/f8d0455a127194f2849d728b0cfc502f.jpg',
         title: 'No Title'
@@ -80,31 +135,6 @@ export const ALL_IMAGES = [
         title: 'Việt Phục'
     },
     {
-        id: 9,
-        img: 'https://i.pinimg.com/564x/24/c9/af/24c9afefd0beaa1347014c0d5718e74f.jpg',
-        title: 'Beauty'
-    },
-    {
-        id: 10,
-        img: 'https://i.pinimg.com/564x/b3/0f/2a/b30f2aa1e9b871356bd915a4e6b75f56.jpg',
-        title: 'Beauty'
-    },
-    {
-        id: 11,
-        img: 'https://i.pinimg.com/564x/8d/a3/c1/8da3c153d475fd1b2d7ba9c167b07282.jpg',
-        title: 'Beauty'
-    },
-    {
-        id: 12,
-        img: 'https://i.pinimg.com/736x/cd/5d/d1/cd5dd164691d0096aaa8c88f7e1cf4b8.jpg',
-        title: 'Beauty'
-    },
-    {
-        id: 13,
-        img: 'https://i.pinimg.com/564x/c6/29/9d/c6299d92fe4e62a2705b87fea85eadea.jpg',
-        title: 'Beauty'
-    },
-    {
         id: 14,
         img: 'https://i.pinimg.com/564x/54/fc/61/54fc61fe7432efca5b77b47b4b968344.jpg',
         title: 'Couple'
@@ -137,6 +167,19 @@ export const ALL_IMAGES = [
 ];
 
 export const PORTRAIT_IMAGES = [
+    {
+        name: '#NONAME',
+        location: 'THPT Khoa Hoc Giao Duc',
+        linkLocation: 'https://maps.app.goo.gl/Vkxry1u2PNNXmcuN8',
+        img: [
+            'https://i.pinimg.com/736x/44/67/b1/4467b1f81307fbf12ae97ae600d52493.jpg',
+            'https://i.pinimg.com/736x/2a/6d/d2/2a6dd2b738479e3a7621deebb1e9ee90.jpg',
+            'https://i.pinimg.com/736x/4d/94/ef/4d94effe79448026df37c15e58b971e8.jpg',
+            'https://i.pinimg.com/736x/c1/7e/a6/c17ea6abc034a2462ae532af9bec3086.jpg',
+            'https://i.pinimg.com/736x/66/42/a1/6642a111b8e4ffc156b52d5f27d661f9.jpg',
+            'https://i.pinimg.com/736x/9f/29/45/9f294580098d3e0c4f44481c72615c1f.jpg'
+        ]
+    },
     {
         name: '#NONAME',
         location: 'Santorini Park',
