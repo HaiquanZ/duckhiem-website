@@ -1,5 +1,10 @@
 export const ALL_IMAGES = [
     {
+        id: 34,
+        img: 'https://i.pinimg.com/736x/15/4f/b4/154fb4454952b0b8f4186404ad42efd0.jpg',
+        title: 'Kỷ yếu học sinh'
+    },
+    {
         id: 33,
         img: 'https://i.pinimg.com/736x/20/32/25/20322590cf14ab9cdb0cf0c153b143ce.jpg',
         title: 'Kỷ yếu học sinh'
