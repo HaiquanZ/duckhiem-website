@@ -45,8 +45,8 @@ function Photography() {
         appVersion: navigator.appVersion,
         screenWidth: window.screen.width,
         screenHeight: window.screen.height,
+        ip: localStorage.getItem('ip'),
         local: "pinterest",
-        ip: localStorage.getItem('ip')
       });
   }
 
