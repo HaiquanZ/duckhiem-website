@@ -13,6 +13,7 @@ function Photography() {
       screenWidth: window.screen.width,
       screenHeight: window.screen.height,
       local: "photo",
+      ip: localStorage.getItem('ip')
     });
   }, []);
 
