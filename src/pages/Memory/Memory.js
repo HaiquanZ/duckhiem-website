@@ -14,6 +14,7 @@ function Memory() {
       screenWidth: window.screen.width,
       screenHeight: window.screen.height,
       local: "memory",
+      ip: localStorage.getItem('ip')
     });
   }, []);
 

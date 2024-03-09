@@ -46,6 +46,7 @@ function Photography() {
         screenWidth: window.screen.width,
         screenHeight: window.screen.height,
         local: "pinterest",
+        ip: localStorage.getItem('ip')
       });
   }
 

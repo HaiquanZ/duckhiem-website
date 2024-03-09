@@ -11,6 +11,7 @@ function About() {
       screenWidth: window.screen.width,
       screenHeight: window.screen.height,
       local: "about",
+      ip: localStorage.getItem('ip')
     });
   }, []);
 

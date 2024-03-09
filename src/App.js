@@ -7,8 +7,21 @@ import Photography from './pages/Photo/Photography';
 import Footer from './pages/Footer/Footer';
 import NotFound from './pages/NotFound/NotFound';
 import Blog from './pages/Blog/Blog';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    fetch("https://api.ipify.org?format=json")
+      .then((response) => response.json())
+      .then((data) => {
+        const ipAddress = data.ip;
+        localStorage.setItem('ip', ipAddress);
+      })
+      .catch((error) => {
+        localStorage.setItem('ip', 'err');
+      });
+  }, []);
 
   function showList(){
     document.getElementById("overlay").style.display = "block";

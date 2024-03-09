@@ -12,6 +12,7 @@ function Home() {
       screenWidth: window.screen.width,
       screenHeight: window.screen.height,
       local: "home",
+      ip: localStorage.getItem('ip')
     });
   }, []);
 
